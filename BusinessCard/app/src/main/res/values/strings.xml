@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Business Card</string>
+    <string name="ph_no">+91 999 999 9999</string>
+    <string name="email_id">contact@apollo.com</string>
+    <string name="social_media_handle">\@apollo</string>
+    <string name="cardholder_name">Apollo</string>
+    <string name="cardholder_designation">Software Developer</string>
+</resources>
