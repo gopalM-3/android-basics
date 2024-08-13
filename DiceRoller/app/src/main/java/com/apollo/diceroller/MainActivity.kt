@@ -62,21 +62,13 @@ fun DiceWithImageAndButton(modifier: Modifier = Modifier) {
     var result: Int by remember {
         mutableIntStateOf(1)
     }
-    val imageResource: Int = when(result) {
-        1 -> R.drawable.dice_1
-        2 -> R.drawable.dice_2
-        3 -> R.drawable.dice_3
-        4 -> R.drawable.dice_4
-        5 -> R.drawable.dice_5
-        else -> R.drawable.dice_6
-    }
-    val imageDesc: String = when(result) {
-        1 -> stringResource(R.string.dice_1)
-        2 -> stringResource(R.string.dice_2)
-        3 -> stringResource(R.string.dice_3)
-        4 -> stringResource(R.string.dice_4)
-        5 -> stringResource(R.string.dice_5)
-        else -> stringResource(R.string.dice_6)
+    val (imageResource, imageDesc) = when(result) {
+        1 -> Pair(R.drawable.dice_1, stringResource(R.string.dice_1))
+        2 -> Pair(R.drawable.dice_2, stringResource(R.string.dice_2))
+        3 -> Pair(R.drawable.dice_3, stringResource(R.string.dice_3))
+        4 -> Pair(R.drawable.dice_4, stringResource(R.string.dice_4))
+        5 -> Pair(R.drawable.dice_5, stringResource(R.string.dice_5))
+        else -> Pair(R.drawable.dice_6, stringResource(R.string.dice_6))
     }
     Column(
         modifier = modifier,
