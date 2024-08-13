@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Dice Roller</string>
+    <string name="roll">Roll</string>
+    <string name="dice_1">Dice with the top face showing 1.</string>
+    <string name="dice_2">Dice with the top face showing 2.</string>
+    <string name="dice_3">Dice with the top face showing 3.</string>
+    <string name="dice_4">Dice with the top face showing 4.</string>
+    <string name="dice_5">Dice with the top face showing 5.</string>
+    <string name="dice_6">Dice with the top face showing 6.</string>
+</resources>
