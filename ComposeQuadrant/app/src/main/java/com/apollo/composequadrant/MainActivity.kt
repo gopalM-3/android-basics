@@ -117,18 +117,19 @@ fun TextComposable(title: String, body: String, color: Color, modifier: Modifier
         Column(
             verticalArrangement = Arrangement.Center,
             horizontalAlignment = Alignment.CenterHorizontally,
-            modifier = modifier.padding(16.dp)
+            modifier = modifier
+                .padding(16.dp)
+                .fillMaxSize()
         ) {
             Text(
                 text = title,
                 fontWeight = FontWeight.Bold,
                 textAlign = TextAlign.Justify,
-                modifier = modifier.padding(bottom = 16.dp)
+                modifier = Modifier.padding(bottom = 16.dp)
             )
             Text(
                 text = body,
-                textAlign = TextAlign.Justify,
-                modifier = modifier
+                textAlign = TextAlign.Justify
             )
         }
     }
