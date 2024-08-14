@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Art Space</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="cute_dogs">Cute Dogs</string>
+    <string name="cute_minecraft_dogs">Cute Minecraft dogs</string>
+    <string name="cozy_drive">Cozy Drive</string>
+    <string name="cozy_drive_in_a_nissan">Cozy drive in a Nissan</string>
+    <string name="img_1_year">2003</string>
+    <string name="img_2_year">2004</string>
+    <string name="sebastian_vettel">Sebastian Vettel</string>
+    <string name="seb">Sebastian Vettel, the 4-time World Champion!</string>
+    <string name="img_3_year">2013</string>
+    <string name="miles_morales">Miles Morales</string>
+    <string name="miles_jumps">Miles jumps in from a skyscraper in the backdrop of New York</string>
+    <string name="img_4_year">2005</string>
+    <string name="sakura_trees">Sakura Trees</string>
+    <string name="scenic_view">A scenic view of Sakura trees</string>
+    <string name="img_5_year">2006</string>
+    <string name="a_samurai">A Samurai</string>
+    <string name="we_fight_we_win">We fight, we win!</string>
+    <string name="img_6_year">2007</string>
+</resources>
