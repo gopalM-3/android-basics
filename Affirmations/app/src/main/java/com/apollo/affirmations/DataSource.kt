@@ -2,7 +2,7 @@ package com.apollo.affirmations
 
 import com.apollo.affirmations.model.Affirmation
 
-class Datasource {
+class DataSource {
     fun loadAffirmations(): List<Affirmation> {
         return listOf<Affirmation>(
             Affirmation(R.string.affirmation1, R.drawable.image1),

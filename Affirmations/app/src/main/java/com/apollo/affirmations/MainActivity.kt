@@ -71,7 +71,7 @@ fun AffirmationsApp(modifier: Modifier = Modifier) {
                 )
         ) {
             ListOfAffirmationCards(
-                affirmations = Datasource().loadAffirmations(),
+                affirmations = DataSource().loadAffirmations(),
                 modifier = Modifier
                     .padding(innerPadding)
                     .fillMaxSize()
