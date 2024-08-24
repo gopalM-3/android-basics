@@ -44,7 +44,7 @@ class GameViewModel : ViewModel() {
 
     private fun updateGameState(updatedScore: Int) {
         if (usedWords.size == MAX_NO_OF_WORDS) {
-            _uiState.update{ currentState ->
+            _uiState.update { currentState ->
                 currentState.copy(
                     isGuessedWordWrong = false,
                     score = updatedScore,
